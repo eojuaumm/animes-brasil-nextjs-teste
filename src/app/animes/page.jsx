@@ -39,10 +39,10 @@ export default function Animes() {
   return (
     <Container>
       <Header>
-        <Title>Lista de Animes</Title>
+        <Title>ANIMEZÕES ABAIXO</Title>
         <ButtonGroup>
           <BackButton href="/">← Voltar</BackButton>
-          <AddButton href="/animes/novo">+ Novo Anime</AddButton>
+          <AddButton href="/animes/novo">+ Adicionar Anime</AddButton>
         </ButtonGroup>
       </Header>
 

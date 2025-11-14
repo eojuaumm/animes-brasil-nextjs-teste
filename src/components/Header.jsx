@@ -36,7 +36,7 @@ export default function Header() {
 
 // 💅 Estilos do Header
 const HeaderContainer = styled.header`
-  background-color: #1e293b;
+  background-color: #000000ff;
   color: white;
   padding: 1rem 2rem;
   position: fixed;
@@ -61,7 +61,7 @@ const HeaderContent = styled.div`
 const Logo = styled(Link)`
   font-size: 1.5rem;
   font-weight: 700;
-  color: #10b981;
+  color: #5820bfff;
   text-decoration: none;
 
   &:hover {
@@ -83,7 +83,7 @@ const NavLink = styled(Link)`
   transition: color 0.2s ease;
 
   &:hover {
-    color: #10b981;
+    color: #dfabe6ff;
   }
 `;
 
@@ -95,6 +95,6 @@ const LoginButton = styled.button`
   transition: color 0.2s ease;
 
   &:hover {
-    color: #10b981;
+    color: #b9b9b9ff;
   }
 `;

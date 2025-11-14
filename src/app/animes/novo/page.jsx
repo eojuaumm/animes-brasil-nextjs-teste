@@ -27,7 +27,7 @@ export default function NovoAnimePage() {
   return (
     <Container>
       <Header>
-        <Title>Cadastrar Anime</Title>
+        <Title>Cadastrar animezão</Title>
         <BackButton href="/animes">← Voltar</BackButton>
       </Header>
 
